@@ -1,0 +1,186 @@
+header
+{
+    z-index: 2;
+}
+
+body {
+    background-color: whitesmoke;
+}
+.navigation {
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    z-index: 1;
+    background-color: rgba(243, 241, 241, 0.2);
+    top: 0;
+    left: 0;
+}
+.nav-bar {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 5px;
+}
+
+.nav-bar:first-child {
+    font-family: "VertigoFLF";
+    font-size: 100px;
+}
+.nav-bar li {
+    display: block;
+    float: left;
+    list-style: none;
+    font-size: 4vh;
+    padding: 10px;
+    border-left: 3px solid white;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.WB {
+    position: relative;
+}
+
+.GLT {
+    position: relative;
+    margin-left: 35%;
+}
+
+.AU {
+    position: relative;
+    margin-left: 5%;
+}
+
+.hd-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    overflow: hidden;
+}
+
+.hd-container img {
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.main-container {
+    position: relative;
+    background-color: none;
+    top: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.subjects {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    background-color: none;
+    margin-top: 50%;
+}
+
+.subjects h2 {
+    margin-left: 15%;
+    font-size: 40px;
+}
+
+.quizzes {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    background-color: none;
+    margin-top: 10%;
+}
+
+.quizzes h2 {
+    margin-left: 15%;
+    font-size: 40px;
+}
+
+.sub-topics {
+    position: relative;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.sub-topics td {
+    position: relative;
+    width: 20%;
+}
+
+.img-tops {
+    position: relative;
+    width: 400px;
+    height: 270px;
+    overflow: hidden; 
+    margin-left: 10px;
+    border: 1px solid rgba(234, 233, 232);
+}
+
+.img-que {
+    position: relative;
+    width: 400px;
+    height: 270px;
+    overflow: hidden; 
+    margin-left: 10px;
+    border: 1px solid rgba(234, 233, 232);
+}
+
+.img-tops img {
+    position: relative;
+    max-height: 100%;
+}
+
+.img-que img {
+    position: relative;
+    max-height: 100%;
+    min-width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(234, 233, 232,0.5);
+}
+
+.img-tops:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #3A3A39;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
