@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Web Technology</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="shortcut icon" href="Images/LogoGrayTrans.png" />
+</head>
+<body class="links-body">
+	<header>
+        <div class="navigation">
+        <ul class="nav-bar">
+            <li class="WB"><a href="index.html">Web Technology</a></li>
+            <li class="GLT"><a href="#">Glossary of Terms</a></li>
+            <li class="AU"><a href="#">About Us</a></li></ul></div>
+    </header>
+	<div class="top-cover">
+	<img class="cover-img" src="Images/vsco.jpg"></div>
+	<div class="subSection-tops"><div class="headers-top"><h2>Node JS</h2></div>
+        <hr>
+    <table class="top-tab">
+        <tbody>
+        <tr>
+			<td><div class="sd-img"><img src="Images/nodejs.png"></div></td>
+			<td class="tab-desc"><div class="des-img"><p><b>Node.js is a powerful open-source and cross-platform server-side javascript framework</b> that was built on Google Chrome’s Javascript Engine V8 by <b>Ryan Dahl</b> in the year 2009. Originally, javascript was used mainly for client-side scripting but with Node.js it allowed developers to create javascripts via server-side.Thus, helping developers to produce a dynamic website content.</p>
+
+<p>The filename extension “.js” is an indication that the file is written in javascript code but in Node.js the “.js” does not refer to any file in this manner because “Node.js” is just the name of the product.</p>
+
+<p>Node.js processes request in a loop, called the “event loop” and has a rich library of Javascript modules that allows developers to create server-side tools and applications in Javascript.</p></div></td>
+			</tr></tbody></table></div>
+	<div class="sect sectOneCov"></div>
+	
+	<div class="subSection-mid"><div class="headers-top"><h2>History</h2></div>
+		<hr>
+		<br>
+<p>In the year 2009, Node.js was initially released and introduced by Ryan Dahl, creator of node.js. The supported operating system of the node.js during this year was only Mac OS X and Linux.</p>
+
+<p>In January 2010, node package manager (npm), a package manager, was introduced for the Node.js environment. In the same yea, Node.js  0.2.0 was also released.</p>
+
+<p>In the year 2011, Node.js build finally supported windows operating system which was released in July 2011. In the same year, npm 1.0 and node.js guide was released.</p>
+
+<p>Ryan Dahl left the company and promoted his coworker and the creator of npm which is Isaac Schuelter to manage the project in January 2012. Also in this year that node.js version 0.8.0 was released.</p>
+
+<p>Schuelter announced the promotion of Timothy Fontaine making him the project leader in January 2014.  Also in December 2014, a fork of node.js which is the io.js was created by Fedor Indutny.</p>
+
+<p>In the year 2015, Joyent planned to establish a  neutral and open governance Foundation of Node.js. By the month of june of the same year, Node.js and IO.js communities decided to work together as a team under the Node.js foundation.</p>
+
+<p>In the year 2016, Express, one of the framework of node.js, was announced as it’s most popular web server framework and will become it’s new incubation project of the Node Foundation. The 2017 will serve as the year of adoption and mainstream for the Node.js.</p>
+<br>
+	<div class="headers-top"><h2>Features</h2></div>
+		<hr>
+		<br>
+		<br>
+		<ul><li><b>Asynchronous</b> -  Node.js APIs library are asynchronous, it operates and runs process independently from other processes. Moreover, asynchronous operation is non-blocking that start an operation and immediately returns before the operation is complete.</li>
+	    <li><b>Fast</b> - Node.js library is fast in executing codes since it is built on Google Chrome’s V8 Javascript Engine.</li>
+		<li><b>Single Threaded Event Driven</b> - Single thread model allows all request in the server to run on the same thread. This is efficient in terms of the server resources and speed of the application.</li>
+		<li><b>Buffer free</b> - Node.js applications outputs data in chunks.</li>
+		<li><b>License</b> - Node.js is under the license of MIT (Massachusetts Institute of Technology).</li></ul>
+	<br>
+		<br>
+	<div class="headers-top"><h2>NPM</h2></div>
+		<hr>
+		<br>
+		<br>
+	<p><b>Node Package Manager (npm)</b>, as the name says is a package manager for node.js environment. Npm provides an online repository where Node.js projects is published. With the use of the repository it helps developers to connect with their team in sharing, updating, and solving particular problems in their project. Also, npm is a command-line utility for the developers to interact with the npm repository which will help them in package installation, dependency management, and version management.</p>
+
+		<p>Upon installing Node.js, npm is already included in it. You can verify it by issuing the command “npm -v” in the command prompt. If you want to have the latest version of the npm, you can update it by entering the command “npm install npm -g” in the command prompt. If you want to know more about npm, check their official website: https://www.npmjs.com</p>
+
+<br>
+	<div class="headers-top"><h2>Node JS Modules</h2></div>
+		<hr>
+		<br>
+		<br>
+	<p>Node.js modules can be considered as JavaScript libraries, set or collection of functions that you can integrate in your application. Modules in node.js can be separated in different .js file. Node.js has three types of modules namely core modules, local modules, and third party modules.</p>
+	<ul>
+		<li><b>Core Modules</b>
+			<p>These modules are compiled into the binary and will load automatically upon starting Node.js process, but before that, you need first to import the core modules in order for you to use it in your project . Core modules are located and defined in Node.js source under the /lib folder.</p></li>
+		<br>
+		<p>The lists below are some of the core modules of Node.js:</p>
+		<table>
+		<tbody><tr>
+			<td><b>Module</b></td>
+			<td><b>Description</b></td>
+			</tr>
+			
+			<tr>
+			<td>http</td>
+			<td>This module includes events, classes, and methods to make node.js act an HTTP server.</td>
+			</tr>
+			
+			<tr>
+			<td>url</td>
+			<td>Url module is used for url parsing.</td>
+			</tr>
+			
+			<tr>
+			<td>path</td>
+			<td>A module that deals with file paths.</td>
+			</tr>
+			
+			<tr>
+			<td>fs</td>
+			<td>Fs module is used in handling file systems.</td>
+			</tr>
+			
+			<tr>
+			<td>util</td>
+			<td>This use of this module is for accessing the utility functions.</td>
+			</tr>
+			</tbody></table>
+		
+		<p>In order for you to run and use the core modules of node.js, import the module using the require() function.</p>
+
+		<p>Example: <b>var module = require(‘moduleName’);</b></p>
+	
+		<li><p>Local Modules</p>
+			<p>These modules are created locally in the Node.js application. Similar with the core modules local modules has different functionalities that you can integrate in your application in separate files and folders. Local modules can also be packaged and distributed via NPM (Node Package Manager) so that it can be used by the Node.js community. If you want to know about npm, see the section above about “What is an npm”.</p>
+
+			<p>The example below shows how to write a simple local module showing a login module that records information, error or warning to the console:</p>
+		</li>
+		<img src="Images/local%20modules(1).png">
+		<p>In the example shown above, we have created three functions of an object namely info(), warning(), and error(). And at the end, we assigned the object “log” to module.exports, a special object which is already included by default in Node.js application that is used to expose or export a function, variable or object in Node.js as a module.</p>
+
+<p>In order for you to load and use the created local module in your application, similar to core module you need to import the modules using the require() function. But in this case you need to specify location or path of the created module.</p>
+
+<p>Example:  var logModule = require(‘./Log.js’);
+		logModule.info(‘Node.js started’);</p>
+
+<p>And to run the created module 
+above using windows command prompt (for windows OS) shown below:</p>
+		<img src="Images/local%20modules(2).png">
+		
+		<li><b>External Modules</b>
+		<p>Node.js has a very big collection of open source modules that is provided by the Node.js community. These modules can be referred to as external modules. External modules can be integrated in our codebase but since it is not built-in modules, requiring it is not enough to integrate them in our project. But with the use of npm, we can install the codebase that contains the external module locally and with that we can now integrate and use those external modules in to our codebase.
+			</p></li></ul>
+		<br>
+		<br>
+	<div class="headers-top"><h2>Node JS Web Server</h2></div>
+		<hr>
+		<br>
+		<br>
+		<p>In every website, you need a web server to access the web application. Web server focuses in handling all http request coming from a client or user of the website. In Node.js, it allows you to create a web server that can handle HTTP requests asynchronously.</p>
+		<b>Creating Node.js Web Server</b>
+		<p>
+		The example below shows how to create a simple web server in Node.js that can process incoming requests asynchronously.</p>
+		<img src="Images/nodes%20web%20server.png">
+		
+		<br>
+		<br>
+	<div class="headers-top"><h2>Node JS Frameworks</h2></div>
+		<p>In Node.js, there are a lot of framework that you can use and integrate into your web application which is available in NPM. With the use of these frameworks the development of your Node.js application is made faster and easier. You can choose on which framework to use in your application in the list below depending on what is the requirement or needed in your website:</p>
+		<img src="Images/frameworks.png">
+		<hr>
+		<br>
+		<br>
+		
+		<div class="headers-top"><h2>Express.js</h2></div>
+		<hr>
+		<br>
+		<p>The Express.js is one of the most used and popular web application framework of Node.js. This framework has a lot of features that lessen the time production of your web application. The Express.js framework was based on one of the modules of Node.js which is the connect module.</p>
+		<b>Installing Express.js</b>
+		<p>Express.js framework can be installed using npm. To do that, issue the command ”npm install -g express” in the command prompt. The command will install the latest express.js version globally, for it to be used by every Node.js application on your computer. </p>
+
+			<p>To install the latest version of express.js locally into your project folder, issue the command “npm install express --save” in the command prompt.</p>
+	</div>
+	
+	
+	<div class="sectB sectTwoCov"></div>
+	<div class="sectB sectThreeCov"></div>
+	<div class="sectB sectTwoCov"></div>
+	<div class="sectB sectThreeCov"></div>
+	<div class="sectB sectOneCov"></div>
+	<div class="sectB sectThreeCov"></div>
+	<div class="sectB sectOneCov"></div>
+	<div class="sectB sectTwoCov"></div>
+	<div class="sectB sectThreeCov"></div>
+	
+	
+	</body>
+</html>
+	
